@@ -1,0 +1,18 @@
+<view class="dm-divider" :style="{height:height+'rpx'}">
+  <view class="dm-divider-line" :style="{width:width,background:wxs.getBgColor(gradual,gradualColor,dividerColor)}"></view>
+  <view class="dm-divider-text" :style="{color:color,fontSize:size+'rpx',lineHeight:size+'rpx',background:bgcolor}">
+    <slot></slot>
+  </view>
+</view>
+<wxs module="wxs">
+  module.exports = {
+    getBgColor: function(gradual, gradualColor, dividerColor) {
+      var bgColor = dividerColor;
+      if (gradual) {
+        bgColor = "linear-gradient(to right," + gradualColor[0] + "," + gradualColor[1] + "," + gradualColor[1] + "," +
+          gradualColor[0] + ")";
+      }
+      return bgColor;
+    }
+  }
+</wxs>

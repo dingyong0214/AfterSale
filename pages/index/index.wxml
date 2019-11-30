@@ -1,0 +1,46 @@
+<view class="container">
+  <!-- 蓝头 -->
+  <view class="blue-header">
+    <image src="/static/images/common/logo.png" class="logo-pic"></image>
+  </view>
+  <!-- 客服电话 -->
+  <view class="phone-outer-box">
+    <view class="phone-box">
+      <view class="phone-title">客服电话 </view>
+      <view class="phone-content">400-660-5770
+        <view hover-class="dl-hover dl-opcity" hover-stay-time="150">
+          <image src="/static/images/index/icon_home_phone.png" class="phone-icon" ></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 步骤 -->
+  <view class="step-outer-box">
+    <view class="step-box">
+      <view class="step-title">微信报修步骤</view>
+      <view class="step-content">
+        <view class="content-item">
+          <image src="/static/images/index/img_home_scan.png" class="content-icon"></image>
+          <view class="text-box">
+            <view class="step-text">1.扫一扫</view>
+            <view class="sm-text">扫描设备条形码</view>
+          </view>
+        </view>
+        <view class="content-item">
+          <image src="/static/images/index/img_home_fault.png" class="content-icon"></image>
+          <view class="text-box">
+            <view class="step-text">2.故障描述</view>
+            <view class="sm-text">填写设备故障情况</view>
+          </view>
+        </view>
+        <view class="content-item">
+          <image src="/static/images/index/img_home_complete.png" class="content-icon"></image>
+          <view class="text-box">
+            <view class="step-text">3.完成报修</view>
+          </view>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+</view>

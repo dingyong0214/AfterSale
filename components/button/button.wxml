@@ -1,0 +1,39 @@
+<button class="dl-btn-class dl-btn {{plain?'dl-'+type+'-outline':'dl-btn-'+(type || 'primary')}} {{wxs.getDisabledClass(disabled,type)}} {{wxs.getShapeClass(shape,plain)}} {{wxs.getShadowClass(type,shadow,plain)}}" hover-class="{{wxs.getHoverClass(disabled,type,plain)}}"
+  style="width:{{width}};height:{{height}};line-height:{{height}};font-size:{{size+'rpx'}}" loading="{{loading}}" disabled="{{disabled}}" bindtap="handleClick">
+  <slot></slot>
+</button>
+
+<wxs module="wxs">
+  module.exports = {
+    getShadowClass: function(type, shadow, plain) {
+      var className = '';
+      if (shadow && type != 'white' && !plain) {
+        className = 'dl-shadow-' + type;
+      }
+      return className;
+    },
+    getDisabledClass: function(disabled, type) {
+      var className = '';
+      if (disabled && type != 'white' && type != 'gray') {
+        className = 'dl-dark-disabled';
+      }
+      return className;
+    },
+    getShapeClass: function(shape, plain) {
+      var className = '';
+      if (shape == 'circle') {
+        className = plain ? 'dl-outline-fillet' : 'dl-fillet';
+      } else if (shape == "rightAngle") {
+        className = plain ? 'dl-outline-rightAngle' : 'dl-rightAngle';
+      }
+      return className;
+    },
+    getHoverClass: function(disabled, type, plain) {
+      var className = '';
+      if (!disabled) {
+        className = plain ? 'dl-outline-hover' : ('dl-' + (type || 'primary') + '-hover');
+      }
+      return className;
+    }
+  }
+</wxs>

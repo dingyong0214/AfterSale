@@ -1,0 +1,53 @@
+.comment{
+  margin: 25rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 40rpx 30rpx;
+}
+.comment-title{
+  color: #2F3030;
+  font-size: 30rpx;
+  padding-bottom: 29rpx;
+  font-weight: 500;
+}
+.place-holder {
+  height: 140rpx;
+  padding: 10rpx;
+  color: #2F3030;
+  font-size: 26rpx;
+  line-height: 30rpx;
+  border-radius: 6rpx;
+  border: 1rpx solid #EBEBEB;
+  min-height: 140rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.voucher{
+  margin: 0 25rpx 25rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 40rpx 30rpx;
+}
+.voucher-title{
+  color: #2F3030;
+  font-size: 30rpx;
+  padding-bottom: 40rpx;
+  font-weight: 500;
+}
+.voucher-number{
+  font-size: 26rpx;
+  color: #5C5E5E;
+  font-weight: 400;
+}
+.information{
+  font-size: 28rpx;
+  margin: 0 25rpx 25rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 40rpx 30rpx;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.submit-button{
+  padding: 60rpx 0 110rpx;
+}

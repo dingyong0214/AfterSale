@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "信息提交",
+  "usingComponents": {
+    "dl-list-cell":"/components/list-cell/list-cell",
+    "dl-toast":"/components/toast/toast"
+  }
+}

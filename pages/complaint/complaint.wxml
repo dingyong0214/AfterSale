@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="comment">
+    <view class="comment-title">投诉内容描述</view>
+    <textarea class="place-holder" placeholder="描述一下您的问题，便于我们及时处理哦！" placeholder-class="dl-phcolor"></textarea>
+  </view>
+  <view class="voucher">
+    <view class="voucher-title">相关凭证
+      <text class="voucher-number">(最多3张)</text>
+    </view>
+    <dl-upload limit="3"></dl-upload>
+  </view>
+  <view class="information">
+    <view>联系人：{{name}}</view>
+    <view>手机号：{{tell}}</view>
+  </view>
+  <view class="submit-button">
+    <dl-button type="primary" width="500rpx" shape="circle" bind:click="chooseTime">提交</dl-button>
+    <!-- <dl-button type="gray" width="500rpx" shape="circle" bind:click="chooseTime">提交</dl-button> -->
+  </view>
+</view>

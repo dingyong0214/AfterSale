@@ -1,0 +1,56 @@
+.container {
+  padding: 24rpx 24rpx 200rpx 24rpx;
+}
+
+.pb13 {
+  padding-bottom: 13rpx;
+}
+.pb30 {
+  margin-bottom: 20rpx;
+}
+.item {
+  background: #fff;
+  margin-bottom: 24rpx;
+  border-radius: 10rpx;
+  padding: 0 30rpx 30rpx 30rpx;
+}
+
+.item-title {
+  height: 90rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2f3030;
+  font-family: PingFang SC;
+  font-weight: 500;
+  font-size: 28rpx;
+  line-height: 70rpx;
+}
+
+.title-col {
+  color: #12b865;
+}
+
+.item-content {
+  color: #434445;
+  font-size: 24rpx;
+}
+
+.item-content-title {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  font-weight: 400;
+  padding-top: 35rpx;
+}
+
+.item-content view {
+  padding-bottom: 10rpx;
+}
+
+.item-btn {
+  padding-top: 25rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}

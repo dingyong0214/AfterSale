@@ -1,0 +1,4 @@
+<view class="dm-loadmore">
+  <view class="{{'dm-loading-'+index}} {{(index==3 && type)?'dm-loading-'+type:''}}"></view>
+  <view class="dm-loadmore-tips" style="color：{{color}}">{{text}}</view>
+</view>

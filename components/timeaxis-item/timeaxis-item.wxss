@@ -1,0 +1,21 @@
+.tui-timeaxis-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.tui-node {
+  position: absolute;
+  left: -20px;
+  /* padding: 3px 0; */
+  transform-origin: 0;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  font-size: 24rpx;
+}

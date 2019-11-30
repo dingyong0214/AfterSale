@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "服务单详情",
+  "usingComponents": {
+    "dl-button": "/components/button/button",
+    "dl-time-axis": "/components/time-axis/time-axis",
+    "dl-timeaxis-item": "/components/timeaxis-item/timeaxis-item"
+  }
+}

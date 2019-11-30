@@ -1,0 +1,107 @@
+.container {
+  padding: 25rpx;
+}
+
+.container-box {
+  background: #fff;
+  padding: 30rpx 30rpx 50rpx 30rpx;
+  font-size: 26rpx;
+  border-radius: 10rpx;
+}
+
+.container-box-title {
+  font-size: 3r4px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(18, 184, 101, 1);
+  padding-top: 10rpx;
+}
+
+.col2F {
+  color: #2f3030;
+}
+
+.col5C {
+  color: #5c5e5e;
+}
+
+.col5c {
+  color: #5c5e5e;
+}
+
+.colA2 {
+  color: #a2a5a6;
+}
+
+.mb24 {
+  margin-bottom: 24rpx;
+}
+
+.pb24 {
+  padding-bottom: 24rpx;
+}
+
+.mr27 {
+  margin-right: 27rpx;
+}
+
+.disf view {
+  line-height: 46rpx;
+}
+
+.disf {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+/* 轨迹 */
+
+.i-list {
+  background: #fff;
+  border-radius: 8rpx;
+  color: #999;
+  padding: 34rpx 24rpx 34rpx 0rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+}
+
+.i-add-ico {
+  width: 29rpx;
+  height: 29rpx;
+  flex-shrink: 0;
+}
+
+.i-ico {
+  width: 12rpx;
+  height: 12rpx;
+  background: rgba(204, 204, 204);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.i-title-box {
+  flex: 4;
+  font-size: 26rpx;
+}
+
+.or-text {
+  width: 124%;
+  line-height: 22rpx;
+  margin-top: 11rpx;
+  font-size: 25rpx;
+  transform: scale(0.8);
+  transform-origin: left center;
+}
+
+.or-add {
+  line-height: 40rpx !important;
+}
+
+.item-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 60rpx 0;
+}

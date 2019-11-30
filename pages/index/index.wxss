@@ -1,0 +1,131 @@
+.container{
+  padding-bottom: 200rpx
+}
+.blue-header {
+  width: 100%;
+  height: 260rpx;
+  background: linear-gradient(0deg, rgb(24, 150, 204), rgb(21, 128, 173));
+  display: flex;
+  justify-content: center;
+}
+
+.logo-pic {
+  width: 430rpx;
+  height: 46rpx;
+  margin-top: 65rpx;
+}
+
+.phone-outer-box {
+  width: 100%;
+  padding: 0 25rpx;
+  box-sizing: border-box;
+  position: absolute;
+  top: 170rpx;
+}
+
+.phone-box {
+  width: 100%;
+  height: 186rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 52rpx 40rpx 52rpx 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone-title {
+  color: #2f3030;
+  font-size: 28rpx;
+  line-height: 28rpx;
+}
+
+.phone-content {
+  font-size: 36rpx;
+  line-height: 36rpx;
+  font-weight: bold;
+  color: #2f3030;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.phone-icon {
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.step-outer-box {
+  width: 100%;
+  padding: 120rpx 25rpx 0 25rpx;
+  box-sizing: border-box;
+}
+
+.step-box {
+  width: 100%;
+  height: 440rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.step-title {
+  font-size: 28rpx;
+  color: #2f3030;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.step-content {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-item {
+  width: 200rpx;
+  height: 290rpx;
+  background: rgba(250, 250, 250, 1);
+  border-radius: 10rpx;
+  padding: 60rpx 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-icon{
+  width: 80rpx;
+  height: 80rpx;
+}
+.text-box{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.step-text{
+  font-size: 26rpx;
+  line-height: 26rpx;
+  color: #333333;
+}
+.sm-text{
+  font-size: 25rpx;
+  line-height: 25rpx;
+  transform: scale(0.8);
+  transform-origin: center center;
+  color: #666666;
+}
+.my-hover{
+  width: 100rpx;
+  height: 100rpx;
+}

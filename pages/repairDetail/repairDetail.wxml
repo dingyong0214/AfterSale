@@ -1,0 +1,53 @@
+<view class="container">
+  <view class="container-box mb24 col5c">
+    <view class="container-box-title pb24">工单已完成</view>
+    <view class="disf">
+      <view class="mr27">
+        <view>服务单号:</view>
+        <view>服务类型:</view>
+        <view>报修日期:</view>
+        <view>故障描述:</view>
+      </view>
+      <view class="flex1">
+        <view> XXXXXXXXXXXX</view>
+        <view>上门维修</view>
+        <view>2019.11.19 25:30:17</view>
+        <view>设备开不了机,设备开不了机，设备开不了机，设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机设备开不了机</view>
+      </view>
+    </view>
+
+  </view>
+  <view class="container-box colA2">
+    <view class="i-list">
+      <dl-time-axis>
+        <dl-timeaxis-item>
+          <image class="i-add-ico" src="/static/images/index/img_serviceorder_success.png" mode="" slot="node"></image>
+          <view class="i-title-box" slot="content">
+            <view class="font28 col2F">问题已解决</view>
+            <view class="or-text or-add col5C">2019.11.12 18:07 </view>
+          </view>
+        </dl-timeaxis-item>
+
+        <dl-timeaxis-item nodeTop="12rpx">
+          <view class="i-ico" slot="node"></view>
+          <view class="i-title-box" slot="content">
+            <view class="font28 colA2">问题已解决问题已解决问题已解决问题已解决问题已解决</view>
+            <view class="or-text or-add colA2">2019.11.12 18:07 </view>
+          </view>
+        </dl-timeaxis-item>
+        <dl-timeaxis-item nodeTop="12rpx">
+          <view class="i-ico" slot="node"></view>
+          <view class="i-title-box" slot="content">
+            <view class="font28 colA2">问题已解决</view>
+            <view class="or-text or-add colA2">2019.11.12 18:07 </view>
+          </view>
+        </dl-timeaxis-item>
+      </dl-time-axis>
+    </view>
+
+  </view>
+  <view class="item-btn">
+    <dl-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" type="gray" bind:click="click_complaint">投诉</dl-button>
+    <dl-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" bind:click="click_evaluate">服务评价</dl-button>
+  </view>
+</view>

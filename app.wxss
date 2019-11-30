@@ -1,0 +1,73 @@
+/**app.wxss**/
+
+page {
+  background: #f0f0f0;
+  color: #2f3030;
+  font-weight: 400;
+}
+
+image {
+  will-change: transform;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.dl-phcolor {
+  color: #bbbebf;
+  font-size: 26rpx;
+}
+
+button::after {
+  border: 0;
+}
+
+.dl-opcity {
+  opacity: 0.5;
+}
+
+.dl-hover {
+  background: #f7f7f9 !important;
+}
+
+.dl-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*按钮样式 如果使用form表单提交数据则不使用组件*/
+
+.dl-btn {
+  width: 100%;
+  height: 86rpx;
+  line-height: 86rpx;
+  border: 0 !important;
+  border-radius: 86rpx;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  font-size: 30rpx;
+}
+
+.dl-btn::after {
+  border: 0;
+}
+
+.dl-btn-primary {
+  background: #1582ad;
+  color: #fff;
+}
+
+.dl-primary-hover {
+  background: #126f93 !important;
+  color: #e5e5e5 !important;
+}
+
+.dl-btn-gray {
+  background: #bfbfbf !important;
+  color: #fff !important;
+}

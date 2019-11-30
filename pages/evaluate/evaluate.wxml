@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="evaluate-content">
+    <view class="evaluate-text">请您对此次服务进行评分</view>
+    <view class="evaluate-star">
+      <dl-rate bind:change="change" current="{{current}}"></dl-rate>
+    </view>
+  </view>
+  <view class="comment">
+    <view class="comment-title">其他想说的</view>
+    <textarea class="place-holder" placeholder-class="dl-phcolor"></textarea>
+  </view>
+  <view class="information">
+    <dm-listCell lineLeft="{{false}}">
+      <view class="information-people">
+        <view>联系人：{{name}}</view>
+        <view>手机号：{{tell}}</view>
+      </view>
+    </dm-listCell>
+   
+    <view class="information-time">
+      <view class="information-title">接受电话处理时间:</view>
+      <view class="flex-between">
+        <dl-button type="white" plain="true" width="190rpx" bind:click="chooseTime">任何时间</dl-button>
+        <dl-button type="primary" plain="true" width="190rpx" bind:click="chooseTime">19:00-18:00</dl-button>
+        <dl-button type="white" plain="true" width="190rpx" bind:click="chooseTime">从不接受</dl-button>
+      </view>
+    </view>
+  </view>
+  <view class="submit-button">
+    <dl-button type="primary" width="500rpx" shape="circle" bind:click="chooseTime">提交</dl-button>
+    <!-- <dl-button type="gray" width="500rpx" shape="circle" bind:click="chooseTime">提交</dl-button> -->
+  </view>
+</view>

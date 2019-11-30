@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "服务评价",
+  "usingComponents": {
+    "dl-button": "/components/button/button",
+    "dl-rate":"/components/rate/rate",
+    "dm-listCell": "/components/list-cell/list-cell",
+    "dl-upload": "/components/upload/upload"
+  }
+}

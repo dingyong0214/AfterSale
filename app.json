@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/feedback/feedback",
+    "pages/repairDetail/repairDetail",
+    "pages/evaluate/evaluate",
+    "pages/complaint/complaint"
+  ],
+  "subpackages": [],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1580AD",
+    "navigationBarTitleText": "菲森售后服务",
+    "navigationBarTextStyle": "white",
+    "backgroundColorTop": "#F0F0F0",
+    "backgroundColorBottom": "#F0F0F0"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#2F3030",
+    "selectedColor": "#1580AD",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/icon_nav_home.png",
+        "selectedIconPath": "static/images/tabbar/icon_nav_home_pre.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "static/images/tabbar/icon_nav_user.png",
+        "selectedIconPath": "static/images/tabbar/icon_nav_user_pre.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "permission": {},
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

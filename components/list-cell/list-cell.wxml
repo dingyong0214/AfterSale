@@ -1,0 +1,4 @@
+<view class="dm-cell-class dm-list-cell {{arrow?'dm-cell-arrow':''}} {{arrow && arrowRight?'':'dm-arrow-right'}} {{unlined?'dm-cell-unlined':''}} {{lineLeft?'dm-line-left':''}} {{lineRight?'dm-line-right':''}} {{(arrow && arrowColor)?'dm-arrow-'+arrowColor:''}} {{radius?'dm-radius':''}}"
+  hover-class="{{hover?'dm-cell-hover':''}}" style="background:{{bgColor}};font-size:{{size+'rpx'}};color:{{color}}" hover-stay-time="150" bindtap="handleClick">
+  <slot></slot>
+</view>

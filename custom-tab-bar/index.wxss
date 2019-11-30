@@ -1,0 +1,134 @@
+.tui-tabbar {
+  width: 100%;
+  background: #fff;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 9999999;
+  left: 0;
+  bottom: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tui-tabbar::before {
+  content: '';
+  width: 100%;
+  border-top: 1rpx solid #b2b2b2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(0.5);
+  transform-origin: 0 100%;
+}
+
+.tui-tabbar-item {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 5px 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.tui-icon-box {
+  position: relative;
+}
+
+.tui-tabbar-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.tui-item-hump {
+  height: 64px;
+}
+
+.tui-tabbar-hump {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -12px;
+  transition: all 0.2s linear;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1rpx solid transparent;
+  box-sizing: border-box;
+}
+
+.tui-tabbar-hump image {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.tui-hump {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+  transition: all 0.2s linear;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 9999998;
+  box-sizing: border-box;
+  margin-bottom: env(safe-area-inset-bottom);
+}
+
+.tui-hump::before {
+  content: '';
+  height: 200%;
+  width: 200%;
+  border: 1rpx solid #b2b2b2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0.5) translateZ(0);
+  transform-origin: 0 0;
+  border-radius: 100%;
+}
+
+.tui-text-scale {
+  font-size: 10px;
+}
+
+.tui-badge {
+  position: absolute;
+  font-size: 24rpx;
+  height: 32rpx;
+  min-width: 20rpx;
+  padding: 0 6rpx;
+  border-radius: 40rpx;
+  right: 0;
+  top: -5rpx;
+  transform: translateX(70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f74d54;
+  color: #fff;
+}
+
+.tui-badge-dot {
+  position: absolute;
+  height: 16rpx;
+  width: 16rpx;
+  border-radius: 50%;
+  right: -4rpx;
+  top: -4rpx;
+  background: #f74d54;
+}
