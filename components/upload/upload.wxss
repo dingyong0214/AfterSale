@@ -5,7 +5,7 @@
 		font-style: normal;
 	}
 
-	.dl-upload-icon {
+	.tui-upload-icon {
 		font-family: "dlUpload" !important;
 		font-style: normal;
 		-webkit-font-smoothing: antialiased;
@@ -13,21 +13,21 @@
 		padding: 10rpx;
 	}
 
-	.dl-icon-delete:before {
+	.tui-icon-delete:before {
 		content: "\e601";
 	}
 
-	.dl-icon-plus:before {
+	.tui-icon-plus:before {
 		content: "\e609";
 	}
 
-	.dl-upload-box {
+	.tui-upload-box {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	.dl-upload-add {
+	.tui-upload-add {
 		width: 200rpx;
 		height: 200rpx;
 		font-size: 64rpx;
@@ -40,7 +40,7 @@
 		padding: 0;
 	}
 
-	.dl-image-item {
+	.tui-image-item {
 		width: 200rpx;
 		height: 200rpx;
 		position: relative;
@@ -48,17 +48,17 @@
 		margin-bottom: 20rpx;
 	}
 
-	.dl-image-item:nth-of-type(3n) {
+	.tui-image-item:nth-of-type(3n) {
 		margin-right: 0;
 	}
 
-	.dl-item-img {
+	.tui-item-img {
 		width: 200rpx;
 		height: 200rpx;
 		display: block;
 	}
 
-	.dl-img-del {
+	.tui-img-del {
 		width: 36rpx;
 		height: 36rpx;
 		position: absolute;
@@ -71,7 +71,7 @@
 		z-index: 999;
 	}
 
-	.dl-img-del::before {
+	.tui-img-del::before {
 		content: '';
 		width: 16rpx;
 		height: 1px;
@@ -81,7 +81,7 @@
 		background: #fff;
 	}
 
-	.dl-upload-mask {
+	.tui-upload-mask {
 		width: 100%;
 		height: 100%;
 		position: absolute;
@@ -96,16 +96,16 @@
 		background: rgba(0, 0, 0, 0.6);
 	}
 
-	.dl-upload-loading {
+	.tui-upload-loading {
 		width: 28rpx;
 		height: 28rpx;
 		border-radius: 50%;
 		border: 2px solid;
 		border-color: #B2B2B2 #B2B2B2 #B2B2B2 #fff;
-		animation: dl-rotate 0.7s linear infinite;
+		animation: tui-rotate 0.7s linear infinite;
 	}
 
-	@keyframes dl-rotate {
+	@keyframes tui-rotate {
 		0% {
 			transform: rotate(0);
 		}
@@ -115,12 +115,12 @@
 		}
 	}
 
-	.dl-tips {
+	.tui-tips {
 		font-size: 26rpx;
 		color: #fff;
 	}
 
-	.dl-mask-btn {
+	.tui-mask-btn {
 		padding: 6rpx 16rpx;
 		border-radius: 40rpx;
 		text-align: center;
@@ -132,6 +132,6 @@
 		justify-content: center;
 	}
 
-	.dl-hover {
+	.tui-hover {
 		opacity: 0.5;
 	}

@@ -6,7 +6,7 @@ Page({
     area: ""
   },
   onLoad: function(options) {
-    this.toast = this.selectComponent("#dl-tips-ctx")
+    this.toast = this.selectComponent("#tui-tips-ctx")
   },
   bindRegionChange: function(e) {
     this.setData({

@@ -1,12 +1,12 @@
 <view class="container">
   <view class="list">
     <view class="item" bindtap="click_repairDetail">
-        <dl-listCell lineLeft="{{false}}">
+        <tui-list-cell lineLeft="{{false}}">
           <view class="item-title">
             <view>服务单号: XXXXXXXXXXXX</view>
             <view class="title-col">工单已完成</view>
           </view>
-        </dl-listCell>
+        </tui-list-cell>
       <view class="item-box">
         <view class="item-content">
           <view class="item-content-title">Dentrix 50</view>
@@ -14,17 +14,17 @@
           <view><text>2019.11.19   </text><text>16:58:03</text></view>
         </view>
         <view class="item-btn" catcahtap="click_evaluate">
-          <dl-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</dl-button>
+          <tui-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</tui-button>
         </view>
       </view>
     </view>
     <view class="item" bindtap="click_repairDetail">
-        <dl-listCell lineLeft="{{false}}">
+        <tui-list-cell lineLeft="{{false}}">
           <view class="item-title">
             <view>服务单号: XXXXXXXXXXXX</view>
             <view class="title-col">工单已完成</view>
           </view>
-        </dl-listCell>
+        </tui-list-cell>
       <view class="item-box">
         <view class="item-content">
           <view class="item-content-title">Dentrix 50</view>
@@ -32,18 +32,18 @@
           <view><text>2019.11.19   </text><text>16:58:03</text></view>
         </view>
         <view class="item-btn" catcahtap="click_evaluate">
-          <dl-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</dl-button>
+          <tui-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</tui-button>
         </view>
       </view>
     </view>
 
     <view class="item" bindtap="click_repairDetail">
-        <dl-listCell lineLeft="{{false}}">
+        <tui-list-cell lineLeft="{{false}}">
           <view class="item-title">
             <view>服务单号: XXXXXXXXXXXX</view>
             <view class="title-col">工单已完成</view>
           </view>
-        </dl-listCell>
+        </tui-list-cell>
       <view class="item-box">
         <view class="item-content">
           <view class="item-content-title">Dentrix 50</view>
@@ -51,19 +51,19 @@
           <view><text>2019.11.19   </text><text>16:58:03</text></view>
         </view>
         <view class="item-btn" catcahtap="click_evaluate">
-          <dl-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</dl-button>
+          <tui-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</tui-button>
         </view>
       </view>
     </view>
 
 
     <view class="item" bindtap="click_repairDetail">
-        <dl-listCell lineLeft="{{false}}">
+        <tui-list-cell lineLeft="{{false}}">
           <view class="item-title">
             <view>服务单号: XXXXXXXXXXXX</view>
             <view class="title-col">工单已完成</view>
           </view>
-        </dl-listCell>
+        </tui-list-cell>
       <view class="item-box">
         <view class="item-content">
           <view class="item-content-title">Dentrix 50</view>
@@ -71,11 +71,11 @@
           <view><text>2019.11.19   </text><text>16:58:03</text></view>
         </view>
         <view class="item-btn" catcahtap="click_evaluate">
-          <dl-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</dl-button>
+          <tui-button shape='circle' width="160rpx" height="56rpx" plain="{{true}}" size="{{26}}" >服务评价</tui-button>
         </view>
       </view>
     </view>
   </view>
   <!--无数据时显示-->
-  <!-- <dl-tips imgUrl="/static/images/common/icon_nodata_3x.png">暂无数据</dl-tips> -->
+  <!-- <tui-tips imgUrl="/static/images/common/icon_nodata_3x.png">暂无数据</tui-tips> -->
 </view>

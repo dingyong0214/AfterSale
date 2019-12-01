@@ -1,8 +1,8 @@
 {
   "navigationBarTitleText": "投诉",
   "usingComponents": {
-    "dl-button": "/components/button/button",
-    "dl-rate": "/components/rate/rate",
-    "dl-upload": "/components/upload/upload"
+    "tui-button": "/components/button/button",
+    "tui-rate": "/components/rate/rate",
+    "tui-upload": "/components/upload/upload"
   }
 }

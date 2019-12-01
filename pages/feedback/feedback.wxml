@@ -32,11 +32,11 @@
             <input name="phone" placeholder="请输入手机号" class="input-font" placeholder-class="place-holder-color"></input>
           </view>
           <picker name="area" mode="region" bindchange="bindRegionChange">
-            <dl-list-cell arrow="{{true}}" unlined="{{true}}" hover="{{false}}">
+            <tui-list-cell arrow="{{true}}" unlined="{{true}}" hover="{{false}}">
               <view class="choose-area">地区选择:
                 <input class="picker" placeholder="请选择" value="{{area}}" disabled  placeholder-style="color:#2F3030;"></input>
               </view>
-            </dl-list-cell>
+            </tui-list-cell>
           </picker>
 
           <view class="row-sp">
@@ -55,10 +55,10 @@
       </view>
     </view>
     <view class="btn-box">
-      <button class="dl-btn-primary dl-btn btn-self" formType="submit" hover-class="dl-primary-hover">提交</button>
-      <!-- <button class="dl-btn-gray dl-btn btn-self">提交</button> -->
+      <button class="tui-btn-primary tui-btn btn-self" formType="submit" hover-class="tui-primary-hover">提交</button>
+      <!-- <button class="tui-btn-gray tui-btn btn-self">提交</button> -->
     </view>
   </form>
   <!--toast提示-->
-	<dl-toast id="dl-tips-ctx"></dl-toast>
+	<tui-toast id="tui-tips-ctx"></tui-toast>
 </container>

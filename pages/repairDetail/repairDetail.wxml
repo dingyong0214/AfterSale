@@ -19,35 +19,35 @@
   </view>
   <view class="container-box colA2">
     <view class="i-list">
-      <dl-time-axis>
-        <dl-timeaxis-item>
+      <tui-time-axis>
+        <tui-timeaxis-item>
           <image class="i-add-ico" src="/static/images/index/img_serviceorder_success.png" mode="" slot="node"></image>
           <view class="i-title-box" slot="content">
             <view class="font28 col2F">问题已解决</view>
             <view class="or-text or-add col5C">2019.11.12 18:07 </view>
           </view>
-        </dl-timeaxis-item>
+        </tui-timeaxis-item>
 
-        <dl-timeaxis-item nodeTop="12rpx">
+        <tui-timeaxis-item nodeTop="12rpx">
           <view class="i-ico" slot="node"></view>
           <view class="i-title-box" slot="content">
             <view class="font28 colA2">问题已解决问题已解决问题已解决问题已解决问题已解决</view>
             <view class="or-text or-add colA2">2019.11.12 18:07 </view>
           </view>
-        </dl-timeaxis-item>
-        <dl-timeaxis-item nodeTop="12rpx">
+        </tui-timeaxis-item>
+        <tui-timeaxis-item nodeTop="12rpx">
           <view class="i-ico" slot="node"></view>
           <view class="i-title-box" slot="content">
             <view class="font28 colA2">问题已解决</view>
             <view class="or-text or-add colA2">2019.11.12 18:07 </view>
           </view>
-        </dl-timeaxis-item>
-      </dl-time-axis>
+        </tui-timeaxis-item>
+      </tui-time-axis>
     </view>
 
   </view>
   <view class="item-btn">
-    <dl-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" type="gray" bind:click="click_complaint">投诉</dl-button>
-    <dl-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" bind:click="click_evaluate">服务评价</dl-button>
+    <tui-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" type="gray" bind:click="click_complaint">投诉</tui-button>
+    <tui-button shape='circle' width="290rpx" height="86rpx" size="{{26}}" bind:click="click_evaluate">服务评价</tui-button>
   </view>
 </view>

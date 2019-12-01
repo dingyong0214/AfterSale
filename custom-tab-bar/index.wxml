@@ -3,12 +3,12 @@
     <block wx:for="{{list}}" wx:key="{{index}}">
       <view class="tui-tabbar-item {{index==1? 'tui-item-hump': ''}}" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
         <view class="tui-icon-box {{index==1? 'tui-tabbar-hump': ''}}">
-          <image src="{{selected===index?item.selectedIconPath:item.iconPath}} " class="{{index==1? '': 'tui-tabbar-icon'}} "></image>
+          <image src="{{selected==index?item.selectedIconPath:item.iconPath}} " class="{{index==1? '': 'tui-tabbar-icon'}} "></image>
           <!--角标-->
           <!-- <view class="tui-badge">1</view> -->
           <!-- <view class="tui-badge-dot"></view> -->
         </view>
-        <view class="tui-text-scale" style="color:{{selected==index?selectedColor:color}}" wx:if="index!==1">{{item.text}}</view>
+        <view class="tui-text-scale" style="color:{{selected==index?selectedColor:color}}" wx:if="index!=1">{{item.text}}</view>
       </view>
     </block>
   </view>

@@ -8,14 +8,11 @@
 		"es6": true,
 		"enhance": true,
 		"postcss": true,
-		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
 		"nodeModules": false,
 		"autoAudits": false,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -23,12 +20,15 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"preloadBackgroundData": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
-	"appid": "wx9488638aeccd4903",
-	"projectname": "%E8%8F%B2%E6%A3%AE%E5%94%AE%E5%90%8E%E6%9C%8D%E5%8A%A1",
+	"appid": "wxd3c1da92cb8fcf40",
+	"projectname": "ThorUI%E5%94%AE%E5%90%8E%E6%9C%8D%E5%8A%A1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

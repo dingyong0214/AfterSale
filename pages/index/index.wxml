@@ -1,14 +1,15 @@
 <view class="container">
-  <!-- 蓝头 -->
-  <view class="blue-header">
+  <!-- header -->
+  <view class="tui-header">
     <image src="/static/images/common/logo.png" class="logo-pic"></image>
+    <text class="logo-text">thorui template</text>
   </view>
   <!-- 客服电话 -->
   <view class="phone-outer-box">
     <view class="phone-box">
       <view class="phone-title">客服电话 </view>
-      <view class="phone-content">400-660-5770
-        <view hover-class="dl-hover dl-opcity" hover-stay-time="150">
+      <view class="phone-content">400-8970-1230
+        <view hover-class="tui-hover tui-opcity" hover-stay-time="150">
           <image src="/static/images/index/icon_home_phone.png" class="phone-icon" ></image>
         </view>
       </view>
